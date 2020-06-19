@@ -1,0 +1,10 @@
+SPEECH RECOGNITION BASED GAME
+
+This game uses speech recognition system to ask players to come up with an English word that satisfies some restrictions shown during the game. The game is between two players which compete among themselves to reach the final destination first. They are initially at the starting position.
+At each step, wheather the player moves to one of the neighboring cell or stays on the same position depends on the answer he/she gives to the restrictions shown on neighboring cells
+
+
+Run the game:
+~python speech.py
+
+
