@@ -287,7 +287,7 @@ def speech_rec():
     recognizer.start()
 
 
-def aaa():
+def Add_check():
 	global player1, player2, turn, word, entries, listening_entry, lst, options, checking, inds
 	s = word
 
@@ -321,10 +321,10 @@ def aaa():
 	inds = show_constraints()
 
 	speech_rec()
-	root.after(11000, aaa)
+	root.after(11000, Add_check)
 
 draw_table()
-startbutton = Button(root, text = "START", command = aaa)
+startbutton = Button(root, text = "START", command = Add_check)
 startbutton.grid(row = len(lst) + 1, column = len(lst[0]) / 2 + 2)
 
 root.mainloop()
